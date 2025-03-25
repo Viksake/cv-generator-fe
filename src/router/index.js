@@ -1,34 +1,34 @@
-import { createRouter, createWebHistory } from 'vue-router';
-import FormPage from '../components/FormPage.vue';
-import AnotherFormPage from '../components/AnotherFormPage.vue';
-import LandingPage from '../components/LandingPage.vue';
-import TemplatesPage from '@/components/TemplatesPage.vue';
-import BuilderOne from '@/components/BuilderOne.vue';
+import { createRouter, createWebHistory } from "vue-router";
+import FormPage from "../components/FormPage.vue";
+import AnotherFormPage from "../components/AnotherFormPage.vue";
+import LandingPage from "../components/LandingPage.vue";
+import TemplatesPage from "@/components/TemplatesPage.vue";
+import BuilderOne from "@/components/BuilderOne.vue";
 
 const routes = [
   {
-    path: '/personal-info',
-    name: 'personalinfo',
+    path: "/personal-info",
+    name: "personalinfo",
     component: FormPage,
   },
   {
-    path: '/work-experience',
-    name: 'workexperience',
+    path: "/work-experience",
+    name: "workexperience",
     component: AnotherFormPage,
   },
   {
-    path: '/',
-    name: 'landingpage',
+    path: "/",
+    name: "landingpage",
     component: LandingPage,
   },
   {
-    path: '/templates',
-    name: 'template',
+    path: "/templates",
+    name: "template",
     component: TemplatesPage,
   },
   {
-    path: '/builder/1',
-    name: 'builder1',
+    path: "/builder/1",
+    name: "builder1",
     component: BuilderOne,
   },
 ];
