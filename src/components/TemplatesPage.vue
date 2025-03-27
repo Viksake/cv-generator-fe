@@ -141,7 +141,6 @@ export default {
       console.log("Vybraná šablona:", template.id);
       localStorage.setItem("selectedTemplate", template.id);
       this.selectedTemplate = template;
-      this.$router.push(`/builder/${template.id}`);
     },
 
     relocatePrevious() {
